@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">01</string>
+    <string name="vamos_a_hacer_un_login">Vamos a hacer un Login</string>
+    <string name="EscribirUser">Escribe tu usuario</string>
+    <string name="EscribirContraseña">Escribe tu contraseña</string>
+    <string name="login">Login</string>
+</resources>

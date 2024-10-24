@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+
+
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@color/topleft"/>
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@color/topmid"
+
+        android:layout_gravity="top|center"/>
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@color/topright"
+
+        android:layout_gravity="end"/>
+
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@color/midleft"
+
+        android:layout_gravity="center|start"/>
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@color/center"
+
+        android:layout_gravity="center"/>
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@color/midright"
+
+        android:layout_gravity="center|end"/>
+
+
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@color/botleft"
+
+        android:layout_gravity="bottom|start"/>
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@color/botmid"
+
+        android:layout_gravity="bottom|center"/>
+    <View
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@color/botright"
+
+        android:layout_gravity="bottom|end"/>
+</FrameLayout>
